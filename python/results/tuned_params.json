@@ -1,0 +1,38 @@
+{
+  "Complementary": {
+    "params": {
+      "tau_a": 0.5,
+      "tau_m": 0.3
+    },
+    "tune_rmse": 7.252538192684647
+  },
+  "Mahony": {
+    "params": {
+      "kp": 8.0,
+      "ki": 0.3
+    },
+    "tune_rmse": 6.841416626226852
+  },
+  "Madgwick": {
+    "params": {
+      "beta": 0.8
+    },
+    "tune_rmse": 7.285897016261262
+  },
+  "MEKF": {
+    "params": {
+      "sigma_acc_dir": 0.05,
+      "sigma_mag_dir": 0.02
+    },
+    "tune_rmse": 6.6592545212809995
+  },
+  "ARBITER": {
+    "params": {
+      "rho0": 0.001308996938995747,
+      "diff_tol": 0.5,
+      "cap_yaw": 0.08726646259971647,
+      "cap_tilt": 0.17453292519943295
+    },
+    "tune_rmse": 1.1863688639283745
+  }
+}

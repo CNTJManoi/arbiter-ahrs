@@ -1,0 +1,2041 @@
+{
+  "Complementary": {
+    "zero_shot": {
+      "params": {
+        "tau_a": 0.5,
+        "tau_m": 0.3
+      },
+      "total": 20.36973132452745,
+      "heading": 17.549163023375733,
+      "inclination": 9.458376037041262,
+      "us": 15.008883136406975
+    },
+    "tagp": {
+      "params": {
+        "tau_a": 5.0,
+        "tau_m": 10.0
+      },
+      "total": 7.536521304488062,
+      "heading": 5.601474335672121,
+      "inclination": 4.106288807774147,
+      "us": 15.015758028602477,
+      "by_group": {
+        "all_trials": {
+          "total": 7.536521304488063,
+          "heading": 5.601474335672121,
+          "inclination": 4.106288807774147
+        },
+        "undisturbed": {
+          "total": 7.378073055099111,
+          "heading": 4.738950003714757,
+          "inclination": 4.735791063949649
+        },
+        "rotation": {
+          "total": 3.4394589325116964,
+          "heading": 3.0448083691436896,
+          "inclination": 1.5115502562603018
+        },
+        "translation": {
+          "total": 12.331109662940381,
+          "heading": 6.60563016664503,
+          "inclination": 8.847758506319321
+        },
+        "combined": {
+          "total": 5.552112581642176,
+          "heading": 4.4283806526681895,
+          "inclination": 3.1378831215250598
+        },
+        "slow": {
+          "total": 3.129702966529505,
+          "heading": 2.6812286284290416,
+          "inclination": 1.2882625023154828
+        },
+        "fast": {
+          "total": 12.012658606265955,
+          "heading": 6.983736958571902,
+          "inclination": 8.496731313005101
+        },
+        "no_breaks": {
+          "total": 6.502374199212462,
+          "heading": 4.322520684943786,
+          "inclination": 4.242225206106088
+        },
+        "with_breaks": {
+          "total": 9.020008409886582,
+          "heading": 5.519754976410328,
+          "inclination": 5.661227047406322
+        },
+        "disturbed": {
+          "total": 7.764290662984674,
+          "heading": 6.841353062860831,
+          "inclination": 3.2013793145218625
+        },
+        "tapping": {
+          "total": 3.8092518681555703,
+          "heading": 2.4373174992063777,
+          "inclination": 2.5377028874083
+        },
+        "vibration": {
+          "total": 3.789909417617972,
+          "heading": 2.2787671570708956,
+          "inclination": 2.9862937242358454
+        },
+        "stationary_magnet": {
+          "total": 14.296561820168014,
+          "heading": 12.889646141999457,
+          "inclination": 6.188138206013401
+        },
+        "attached_magnet": {
+          "total": 5.796182465240201,
+          "heading": 5.59842433534668,
+          "inclination": 1.2715413611569555
+        },
+        "office_environment": {
+          "total": 6.224398487315316,
+          "heading": 6.051266529924878,
+          "inclination": 1.425096789927516
+        },
+        "mixed": {
+          "total": 10.414371454704025,
+          "heading": 8.376240388637774,
+          "inclination": 6.213622599368096
+        }
+      },
+      "by_trial": {
+        "02_undisturbed_slow_rotation_B.hdf5": {
+          "total": 1.7171805766237096,
+          "heading": 1.1047600459852054,
+          "inclination": 1.3146379458697222,
+          "us": 15.178948159243529
+        },
+        "03_undisturbed_slow_rotation_C.hdf5": {
+          "total": 4.773782766459091,
+          "heading": 4.365074717486184,
+          "inclination": 1.9330756548913572,
+          "us": 14.670879270862027
+        },
+        "04_undisturbed_slow_rotation_with_breaks_A.hdf5": {
+          "total": 4.739703599617537,
+          "heading": 4.508244141810019,
+          "inclination": 1.4633271914617672,
+          "us": 15.03717651685978
+        },
+        "05_undisturbed_slow_rotation_with_breaks_B.hdf5": {
+          "total": 1.565302737475614,
+          "heading": 1.2373867179724494,
+          "inclination": 0.9586859020227694,
+          "us": 14.887988921686466
+        },
+        "06_undisturbed_fast_rotation_A.hdf5": {
+          "total": 2.9732770899659156,
+          "heading": 2.7570251058037134,
+          "inclination": 1.1132571276631293,
+          "us": 14.792100037274663
+        },
+        "07_undisturbed_fast_rotation_B.hdf5": {
+          "total": 3.473785681251502,
+          "heading": 2.9910640767362167,
+          "inclination": 1.766797564769128,
+          "us": 14.817243613208507
+        },
+        "08_undisturbed_fast_rotation_with_breaks_A.hdf5": {
+          "total": 7.3701539254712145,
+          "heading": 6.906856234485418,
+          "inclination": 2.5732932540303675,
+          "us": 15.198092412648636
+        },
+        "09_undisturbed_fast_rotation_with_breaks_B.hdf5": {
+          "total": 1.8042621623092439,
+          "heading": 1.332721087443725,
+          "inclination": 1.216249812443865,
+          "us": 14.433183148218935
+        },
+        "01_undisturbed_slow_rotation_A.hdf5": {
+          "total": 2.537681853431444,
+          "heading": 2.200143194570274,
+          "inclination": 1.26462785319061,
+          "us": 15.210569018388805
+        },
+        "10_undisturbed_slow_translation_A.hdf5": {
+          "total": 2.0824026164933005,
+          "heading": 1.9591154127015435,
+          "inclination": 0.7059122412044178,
+          "us": 15.019919146853756
+        },
+        "11_undisturbed_slow_translation_B.hdf5": {
+          "total": 2.7036844353003064,
+          "heading": 1.9712713543732636,
+          "inclination": 1.8504989261334939,
+          "us": 15.111781089366104
+        },
+        "12_undisturbed_slow_translation_C.hdf5": {
+          "total": 2.7208642190471326,
+          "heading": 0.9009928105291606,
+          "inclination": 2.5673820455008007,
+          "us": 15.075609842978945
+        },
+        "13_undisturbed_slow_translation_with_breaks_A.hdf5": {
+          "total": 6.576079719131611,
+          "heading": 6.543322216581693,
+          "inclination": 0.6559016322325556,
+          "us": 15.513489684136589
+        },
+        "14_undisturbed_slow_translation_with_breaks_B.hdf5": {
+          "total": 2.2772027621934487,
+          "heading": 1.6384927222981958,
+          "inclination": 1.5815097771580626,
+          "us": 14.411766721981772
+        },
+        "15_undisturbed_fast_translation_A.hdf5": {
+          "total": 20.814796624721904,
+          "heading": 18.187084421499634,
+          "inclination": 10.204117275080597,
+          "us": 15.048283734828443
+        },
+        "16_undisturbed_fast_translation_B.hdf5": {
+          "total": 25.97759421668174,
+          "heading": 6.259375871130651,
+          "inclination": 25.223655849662777,
+          "us": 15.499777116488742
+        },
+        "17_undisturbed_fast_translation_with_breaks_A.hdf5": {
+          "total": 19.125623804290786,
+          "heading": 17.14723805329708,
+          "inclination": 8.533879394741708,
+          "us": 14.701525770906406
+        },
+        "30_disturbed_stationary_magnet_C.hdf5": {
+          "total": 24.61020977233785,
+          "heading": 22.37193433311255,
+          "inclination": 10.350425553741657,
+          "us": 14.600181784976062
+        },
+        "31_disturbed_stationary_magnet_D.hdf5": {
+          "total": 13.188950419342698,
+          "heading": 11.526507781570508,
+          "inclination": 6.424089765028821,
+          "us": 15.221130378845201
+        },
+        "32_disturbed_attached_magnet_1cm.hdf5": {
+          "total": 11.540988699964165,
+          "heading": 11.50376441380251,
+          "inclination": 0.9274807076314557,
+          "us": 14.987207959170917
+        },
+        "33_disturbed_attached_magnet_2cm.hdf5": {
+          "total": 5.248570619924069,
+          "heading": 5.140227112732086,
+          "inclination": 1.061433591482194,
+          "us": 15.133389257578704
+        },
+        "26_disturbed_phone_vibration_A.hdf5": {
+          "total": 3.3711762620746533,
+          "heading": 2.4203810529108285,
+          "inclination": 2.3467587327241852,
+          "us": 15.230657496888885
+        },
+        "27_disturbed_phone_vibration_B.hdf5": {
+          "total": 4.20864257316129,
+          "heading": 2.1371532612309627,
+          "inclination": 3.625828715747506,
+          "us": 15.005783227501876
+        },
+        "28_disturbed_stationary_magnet_A.hdf5": {
+          "total": 7.47867982863999,
+          "heading": 6.67160429309588,
+          "inclination": 3.380860370828026,
+          "us": 15.212951279412724
+        },
+        "29_disturbed_stationary_magnet_B.hdf5": {
+          "total": 11.908407260351515,
+          "heading": 10.988538160218889,
+          "inclination": 4.597177134455102,
+          "us": 14.783733122651139
+        },
+        "34_disturbed_attached_magnet_3cm.hdf5": {
+          "total": 4.397039501751014,
+          "heading": 4.230767639756839,
+          "inclination": 1.1980098192835398,
+          "us": 14.88357313183996
+        },
+        "35_disturbed_attached_magnet_4cm.hdf5": {
+          "total": 3.2703975444066833,
+          "heading": 3.027704722015441,
+          "inclination": 1.2364834418514694,
+          "us": 15.264929082434136
+        },
+        "36_disturbed_attached_magnet_5cm.hdf5": {
+          "total": 4.523915960155073,
+          "heading": 4.089657788426524,
+          "inclination": 1.9342992455361185,
+          "us": 15.074150533731169
+        },
+        "37_disturbed_office_A.hdf5": {
+          "total": 8.212725927163472,
+          "heading": 8.05619301002013,
+          "inclination": 1.5964440741013235,
+          "us": 14.69558465184162
+        },
+        "18_undisturbed_fast_translation_with_breaks_B.hdf5": {
+          "total": 28.701738568603197,
+          "heading": 4.843778637394046,
+          "inclination": 28.306969415159482,
+          "us": 15.02067803600662
+        },
+        "19_undisturbed_slow_combined_240s.hdf5": {
+          "total": 2.938342166351684,
+          "heading": 2.8795706968211845,
+          "inclination": 0.5848095075258151,
+          "us": 15.288039193643906
+        },
+        "20_undisturbed_slow_combined_360s.hdf5": {
+          "total": 2.9242081462291867,
+          "heading": 2.8663695100193296,
+          "inclination": 0.5787813505944217,
+          "us": 15.229589907137244
+        },
+        "21_undisturbed_fast_combined.hdf5": {
+          "total": 11.979858928544848,
+          "heading": 8.919857673377715,
+          "inclination": 8.006823112435466,
+          "us": 15.111176605864948
+        },
+        "38_disturbed_office_B.hdf5": {
+          "total": 4.23607104746716,
+          "heading": 4.046340049829626,
+          "inclination": 1.2537495057537085,
+          "us": 15.177344047944526
+        },
+        "39_disturbed_mixed.hdf5": {
+          "total": 10.414371454704025,
+          "heading": 8.376240388637774,
+          "inclination": 6.213622599368096,
+          "us": 14.838278892795124
+        },
+        "22_undisturbed_fast_combined_240s.hdf5": {
+          "total": 4.286531917867996,
+          "heading": 3.224859899396004,
+          "inclination": 2.82426431377467,
+          "us": 15.203809348317895
+        },
+        "23_undisturbed_fast_combined_360s.hdf5": {
+          "total": 5.631621749217168,
+          "heading": 4.251245483726713,
+          "inclination": 3.6947373232949263,
+          "us": 14.866313649486653
+        },
+        "24_disturbed_tapping_A.hdf5": {
+          "total": 4.682405226367923,
+          "heading": 4.112073669326168,
+          "inclination": 2.2400442962919818,
+          "us": 15.217869635306887
+        },
+        "25_disturbed_tapping_B.hdf5": {
+          "total": 2.9360985099432177,
+          "heading": 0.7625613290865868,
+          "inclination": 2.8353614785246184,
+          "us": 14.959857686188244
+        }
+      }
+    }
+  },
+  "Mahony": {
+    "zero_shot": {
+      "params": {
+        "kp": 8.0,
+        "ki": 0.3
+      },
+      "total": 24.503314922250304,
+      "heading": 19.183373614969916,
+      "inclination": 14.792275999615043,
+      "us": 13.914912736956712
+    },
+    "tagp": {
+      "params": {
+        "kp": 1.0,
+        "ki": 0.0
+      },
+      "total": 8.02440307323709,
+      "heading": 6.663203565293317,
+      "inclination": 4.1382943078396766,
+      "us": 13.428533690762306,
+      "by_group": {
+        "all_trials": {
+          "total": 8.024403073237092,
+          "heading": 6.663203565293317,
+          "inclination": 4.138294307839676
+        },
+        "undisturbed": {
+          "total": 6.641183338648846,
+          "heading": 5.308986279588182,
+          "inclination": 3.728999088491907
+        },
+        "rotation": {
+          "total": 3.6853246678147724,
+          "heading": 3.342692495237155,
+          "inclination": 1.3403945107874413
+        },
+        "translation": {
+          "total": 9.306770670770472,
+          "heading": 7.201187492161698,
+          "inclination": 5.676778828248471
+        },
+        "combined": {
+          "total": 7.163671748331249,
+          "heading": 5.442352908787701,
+          "inclination": 4.522483796798129
+        },
+        "slow": {
+          "total": 3.5342876145516517,
+          "heading": 3.0076648628402176,
+          "inclination": 1.5352142279967484
+        },
+        "fast": {
+          "total": 10.030524128573054,
+          "heading": 7.819518734222325,
+          "inclination": 6.122218936304807
+        },
+        "no_breaks": {
+          "total": 6.028915090711236,
+          "heading": 4.682113773564422,
+          "inclination": 3.604506518062329
+        },
+        "with_breaks": {
+          "total": 7.789186303531861,
+          "heading": 6.484372228382734,
+          "inclination": 3.962422658047367
+        },
+        "disturbed": {
+          "total": 10.012781441707691,
+          "heading": 8.60989091349445,
+          "inclination": 4.726656185652093
+        },
+        "tapping": {
+          "total": 3.725949069244984,
+          "heading": 3.117168156667554,
+          "inclination": 1.8320384475342792
+        },
+        "vibration": {
+          "total": 4.375141287312298,
+          "heading": 3.9535296631488217,
+          "inclination": 1.874051248518966
+        },
+        "stationary_magnet": {
+          "total": 13.493812846021822,
+          "heading": 11.52094520660191,
+          "inclination": 7.006635865592759
+        },
+        "attached_magnet": {
+          "total": 14.45901686543491,
+          "heading": 12.713405789454466,
+          "inclination": 5.891567313730825
+        },
+        "office_environment": {
+          "total": 5.469787273439222,
+          "heading": 4.3550399312792205,
+          "inclination": 3.210178904730509
+        },
+        "mixed": {
+          "total": 6.792412096068241,
+          "heading": 5.2559693400400365,
+          "inclination": 4.309581737840815
+        }
+      },
+      "by_trial": {
+        "02_undisturbed_slow_rotation_B.hdf5": {
+          "total": 1.3767710238653315,
+          "heading": 1.2245406528965603,
+          "inclination": 0.6292978690971104,
+          "us": 13.049342599574961
+        },
+        "03_undisturbed_slow_rotation_C.hdf5": {
+          "total": 4.699410022238371,
+          "heading": 4.618830149186494,
+          "inclination": 0.8667954053879732,
+          "us": 13.319437787563551
+        },
+        "04_undisturbed_slow_rotation_with_breaks_A.hdf5": {
+          "total": 5.913255277916495,
+          "heading": 5.780127384278541,
+          "inclination": 1.2483281326091176,
+          "us": 12.751632409519749
+        },
+        "05_undisturbed_slow_rotation_with_breaks_B.hdf5": {
+          "total": 1.269295992571726,
+          "heading": 1.0480271189545596,
+          "inclination": 0.7160755286888522,
+          "us": 13.073358439506238
+        },
+        "06_undisturbed_fast_rotation_A.hdf5": {
+          "total": 4.930694517402287,
+          "heading": 4.574684476290455,
+          "inclination": 1.8400207495463605,
+          "us": 13.61908655581945
+        },
+        "07_undisturbed_fast_rotation_B.hdf5": {
+          "total": 2.7324359104214815,
+          "heading": 1.9144164494792717,
+          "inclination": 1.9497630916207072,
+          "us": 13.351506149658967
+        },
+        "08_undisturbed_fast_rotation_with_breaks_A.hdf5": {
+          "total": 6.838411917788954,
+          "heading": 6.464658761767551,
+          "inclination": 2.2309806415030953,
+          "us": 13.397351782692922
+        },
+        "09_undisturbed_fast_rotation_with_breaks_B.hdf5": {
+          "total": 2.081096092171227,
+          "heading": 1.2648540082304753,
+          "inclination": 1.6526350275895723,
+          "us": 13.395697342785382
+        },
+        "01_undisturbed_slow_rotation_A.hdf5": {
+          "total": 3.326551255957073,
+          "heading": 3.1940934560504854,
+          "inclination": 0.9296541510441831,
+          "us": 13.472945206940258
+        },
+        "10_undisturbed_slow_translation_A.hdf5": {
+          "total": 3.5834863056181887,
+          "heading": 1.9536941282406841,
+          "inclination": 3.0041796664171216,
+          "us": 13.506683031536317
+        },
+        "11_undisturbed_slow_translation_B.hdf5": {
+          "total": 3.21506349407819,
+          "heading": 1.837072337153454,
+          "inclination": 2.638637256382459,
+          "us": 13.666265171308313
+        },
+        "12_undisturbed_slow_translation_C.hdf5": {
+          "total": 2.405624996350806,
+          "heading": 1.6868437834866783,
+          "inclination": 1.7151693479981305,
+          "us": 13.217916641968436
+        },
+        "13_undisturbed_slow_translation_with_breaks_A.hdf5": {
+          "total": 8.53571050497927,
+          "heading": 8.315281166590527,
+          "inclination": 1.9290160491780262,
+          "us": 13.500122543385276
+        },
+        "14_undisturbed_slow_translation_with_breaks_B.hdf5": {
+          "total": 2.4538617459015066,
+          "heading": 1.5946047299991564,
+          "inclination": 1.865177406688492,
+          "us": 13.953721886406916
+        },
+        "15_undisturbed_fast_translation_A.hdf5": {
+          "total": 10.716694144150553,
+          "heading": 7.973540690787435,
+          "inclination": 7.167161726206367,
+          "us": 13.18050270203499
+        },
+        "16_undisturbed_fast_translation_B.hdf5": {
+          "total": 17.62863594893002,
+          "heading": 14.042225935956296,
+          "inclination": 10.71449952324387,
+          "us": 13.057053488275107
+        },
+        "17_undisturbed_fast_translation_with_breaks_A.hdf5": {
+          "total": 8.273480362201864,
+          "heading": 5.497560505154365,
+          "inclination": 6.184823475876072,
+          "us": 13.338921215963692
+        },
+        "30_disturbed_stationary_magnet_C.hdf5": {
+          "total": 18.903343535449363,
+          "heading": 16.425059295100723,
+          "inclination": 9.393050420136568,
+          "us": 13.377296789172643
+        },
+        "31_disturbed_stationary_magnet_D.hdf5": {
+          "total": 12.272801566303588,
+          "heading": 10.411789731525213,
+          "inclination": 6.507958157567546,
+          "us": 13.27318762237351
+        },
+        "32_disturbed_attached_magnet_1cm.hdf5": {
+          "total": 44.96929122474998,
+          "heading": 43.71986905336862,
+          "inclination": 10.911818532722176,
+          "us": 13.471758434727148
+        },
+        "33_disturbed_attached_magnet_2cm.hdf5": {
+          "total": 12.384780241802039,
+          "heading": 10.005599638065554,
+          "inclination": 7.315323693166435,
+          "us": 14.008730504498292
+        },
+        "26_disturbed_phone_vibration_A.hdf5": {
+          "total": 3.152487516765226,
+          "heading": 2.8617259555092667,
+          "inclination": 1.3224986191059374,
+          "us": 13.540403561012411
+        },
+        "27_disturbed_phone_vibration_B.hdf5": {
+          "total": 5.59779505785937,
+          "heading": 5.045333370788376,
+          "inclination": 2.425603877931995,
+          "us": 13.873440457788897
+        },
+        "28_disturbed_stationary_magnet_A.hdf5": {
+          "total": 8.761978281498823,
+          "heading": 6.957869960427806,
+          "inclination": 5.32876638073585,
+          "us": 13.997041496404403
+        },
+        "29_disturbed_stationary_magnet_B.hdf5": {
+          "total": 14.037128000835514,
+          "heading": 12.289061839353899,
+          "inclination": 6.796768503931074,
+          "us": 13.918728550363154
+        },
+        "34_disturbed_attached_magnet_3cm.hdf5": {
+          "total": 5.479618374728179,
+          "heading": 3.6565495446268903,
+          "inclination": 4.082106526768425,
+          "us": 13.561072349532916
+        },
+        "35_disturbed_attached_magnet_4cm.hdf5": {
+          "total": 4.424466955819854,
+          "heading": 2.734175695354855,
+          "inclination": 3.478951033698034,
+          "us": 13.916384770598597
+        },
+        "36_disturbed_attached_magnet_5cm.hdf5": {
+          "total": 5.036927530074487,
+          "heading": 3.4508350158564056,
+          "inclination": 3.669636782299055,
+          "us": 13.505235064962346
+        },
+        "37_disturbed_office_A.hdf5": {
+          "total": 6.343844579025864,
+          "heading": 5.539224365102534,
+          "inclination": 3.0932770110180736,
+          "us": 13.140518904801345
+        },
+        "18_undisturbed_fast_translation_with_breaks_B.hdf5": {
+          "total": 26.948378534723844,
+          "heading": 21.909864152086698,
+          "inclination": 15.87234500224571,
+          "us": 13.326515322868795
+        },
+        "19_undisturbed_slow_combined_240s.hdf5": {
+          "total": 2.833343309127977,
+          "heading": 2.4655278530375444,
+          "inclination": 1.396192922234859,
+          "us": 13.436786228303026
+        },
+        "20_undisturbed_slow_combined_360s.hdf5": {
+          "total": 2.799077446014891,
+          "heading": 2.3733355942079317,
+          "inclination": 1.4840470002346575,
+          "us": 13.386170295958944
+        },
+        "21_undisturbed_fast_combined.hdf5": {
+          "total": 15.65603878950083,
+          "heading": 13.006189107285904,
+          "inclination": 8.737978890712567,
+          "us": 12.872342014818546
+        },
+        "22_undisturbed_fast_combined_240s.hdf5": {
+          "total": 7.438774950143887,
+          "heading": 5.4079858732427555,
+          "inclination": 5.109749214095097,
+          "us": 13.578193536337244
+        },
+        "23_undisturbed_fast_combined_360s.hdf5": {
+          "total": 7.091124246868664,
+          "heading": 3.958726116164372,
+          "inclination": 5.884450956713468,
+          "us": 13.473897048830608
+        },
+        "24_disturbed_tapping_A.hdf5": {
+          "total": 3.6677416874979722,
+          "heading": 3.5214859048200653,
+          "inclination": 1.0255597542986494,
+          "us": 13.289881553366062
+        },
+        "25_disturbed_tapping_B.hdf5": {
+          "total": 3.784156450991995,
+          "heading": 2.712850408515043,
+          "inclination": 2.638517140769909,
+          "us": 13.388989982172944
+        },
+        "38_disturbed_office_B.hdf5": {
+          "total": 4.595729967852579,
+          "heading": 3.1708554974559067,
+          "inclination": 3.3270807984429447,
+          "us": 13.168303642915014
+        },
+        "39_disturbed_mixed.hdf5": {
+          "total": 6.792412096068241,
+          "heading": 5.2559693400400365,
+          "inclination": 4.309581737840815,
+          "us": 13.35639085298246
+        }
+      }
+    }
+  },
+  "Madgwick": {
+    "zero_shot": {
+      "params": {
+        "beta": 0.8
+      },
+      "total": 12.213277812810876,
+      "heading": 8.906095485245743,
+      "inclination": 7.613464949452275,
+      "us": 25.375934682688143
+    },
+    "tagp": {
+      "params": {
+        "beta": 0.1
+      },
+      "total": 5.11256043816286,
+      "heading": 4.188599238096785,
+      "inclination": 2.508855965026169,
+      "us": 25.121829404669736,
+      "by_group": {
+        "all_trials": {
+          "total": 5.112560438162861,
+          "heading": 4.188599238096784,
+          "inclination": 2.508855965026169
+        },
+        "undisturbed": {
+          "total": 4.711591587096654,
+          "heading": 3.8928838737656313,
+          "inclination": 2.27058695548869
+        },
+        "rotation": {
+          "total": 3.4365994422610324,
+          "heading": 3.1106416393341054,
+          "inclination": 1.241201913868056
+        },
+        "translation": {
+          "total": 5.602866600373711,
+          "heading": 4.319953599207919,
+          "inclination": 2.9872533135622246
+        },
+        "combined": {
+          "total": 5.40228242390207,
+          "heading": 4.53219438994626,
+          "inclination": 2.8334805858734713
+        },
+        "slow": {
+          "total": 2.844615887450951,
+          "heading": 2.093210616756261,
+          "inclination": 1.6345127528617664
+        },
+        "fast": {
+          "total": 6.748292350346511,
+          "heading": 5.856163790503126,
+          "inclination": 2.9644860856271524
+        },
+        "no_breaks": {
+          "total": 4.844990161797958,
+          "heading": 3.9929373564061548,
+          "inclination": 2.3805328430311214
+        },
+        "with_breaks": {
+          "total": 4.4614692595317065,
+          "heading": 3.705283593814649,
+          "inclination": 2.064438416346632
+        },
+        "disturbed": {
+          "total": 5.688953161570531,
+          "heading": 4.613690074322817,
+          "inclination": 2.8513676662362935
+        },
+        "tapping": {
+          "total": 2.659019212793286,
+          "heading": 1.7654567421557057,
+          "inclination": 1.8070306374672611
+        },
+        "vibration": {
+          "total": 6.769056181370907,
+          "heading": 6.503956346225575,
+          "inclination": 1.6999663323868945
+        },
+        "stationary_magnet": {
+          "total": 7.343962937423452,
+          "heading": 6.011877349122284,
+          "inclination": 3.5204745523708008
+        },
+        "attached_magnet": {
+          "total": 5.923168506719301,
+          "heading": 4.518085936829039,
+          "inclination": 3.45573379436404
+        },
+        "office_environment": {
+          "total": 5.258807503278385,
+          "heading": 4.453654233596447,
+          "inclination": 2.6169186315837214
+        },
+        "mixed": {
+          "total": 2.6577905069530297,
+          "heading": 1.7349674645752886,
+          "inclination": 2.0134842756015465
+        }
+      },
+      "by_trial": {
+        "03_undisturbed_slow_rotation_C.hdf5": {
+          "total": 4.208815048637804,
+          "heading": 4.114140309541166,
+          "inclination": 0.8878806179187511,
+          "us": 25.179923645269866
+        },
+        "04_undisturbed_slow_rotation_with_breaks_A.hdf5": {
+          "total": 4.102109470800402,
+          "heading": 4.040749794005128,
+          "inclination": 0.7069988803465197,
+          "us": 24.36280047853028
+        },
+        "05_undisturbed_slow_rotation_with_breaks_B.hdf5": {
+          "total": 1.5389441047403931,
+          "heading": 1.3789803508876484,
+          "inclination": 0.683217382555326,
+          "us": 25.408883336508683
+        },
+        "06_undisturbed_fast_rotation_A.hdf5": {
+          "total": 5.093555820384043,
+          "heading": 4.8851712343308265,
+          "inclination": 1.4425379318257383,
+          "us": 25.176349767153727
+        },
+        "07_undisturbed_fast_rotation_B.hdf5": {
+          "total": 3.7008281819497437,
+          "heading": 2.784952209856449,
+          "inclination": 2.43747594057221,
+          "us": 25.09842720489209
+        },
+        "08_undisturbed_fast_rotation_with_breaks_A.hdf5": {
+          "total": 6.779657664646907,
+          "heading": 6.566534251915954,
+          "inclination": 1.6873274902046973,
+          "us": 25.344584342113134
+        },
+        "09_undisturbed_fast_rotation_with_breaks_B.hdf5": {
+          "total": 2.2229842023522264,
+          "heading": 1.3283737927074375,
+          "inclination": 1.7824682582877323,
+          "us": 24.90481465367717
+        },
+        "10_undisturbed_slow_translation_A.hdf5": {
+          "total": 3.110620178924553,
+          "heading": 1.5916360205222961,
+          "inclination": 2.6726523327334655,
+          "us": 25.474751394990818
+        },
+        "15_undisturbed_fast_translation_A.hdf5": {
+          "total": 16.56865977733199,
+          "heading": 15.965912185335249,
+          "inclination": 4.452265402435599,
+          "us": 25.229298271882698
+        },
+        "16_undisturbed_fast_translation_B.hdf5": {
+          "total": 3.9221760112948947,
+          "heading": 2.7644833586108026,
+          "inclination": 2.782575106514347,
+          "us": 25.27547572807939
+        },
+        "17_undisturbed_fast_translation_with_breaks_A.hdf5": {
+          "total": 10.857788169779825,
+          "heading": 9.953767095665825,
+          "inclination": 4.344573170288279,
+          "us": 24.35910338195053
+        },
+        "18_undisturbed_fast_translation_with_breaks_B.hdf5": {
+          "total": 3.6428265656082854,
+          "heading": 1.6230639511235379,
+          "inclination": 3.261382158525866,
+          "us": 26.010065128606442
+        },
+        "01_undisturbed_slow_rotation_A.hdf5": {
+          "total": 1.5790405184739782,
+          "heading": 1.3818091581137928,
+          "inclination": 0.7641990409527866,
+          "us": 25.288937476793684
+        },
+        "02_undisturbed_slow_rotation_B.hdf5": {
+          "total": 1.7034599683637943,
+          "heading": 1.5150636526485453,
+          "inclination": 0.7787116821487406,
+          "us": 25.359851615692353
+        },
+        "11_undisturbed_slow_translation_B.hdf5": {
+          "total": 3.1955291669517587,
+          "heading": 1.352606277026491,
+          "inclination": 2.895209050345995,
+          "us": 24.835990705979953
+        },
+        "12_undisturbed_slow_translation_C.hdf5": {
+          "total": 2.5807556351464735,
+          "heading": 0.8773139903754015,
+          "inclination": 2.4270826106518375,
+          "us": 24.682965374853357
+        },
+        "13_undisturbed_slow_translation_with_breaks_A.hdf5": {
+          "total": 3.922172960189193,
+          "heading": 3.519784553862589,
+          "inclination": 1.7307442813012384,
+          "us": 25.08508768246177
+        },
+        "14_undisturbed_slow_translation_with_breaks_B.hdf5": {
+          "total": 2.6252709381364236,
+          "heading": 1.2310149603490754,
+          "inclination": 2.318795709263394,
+          "us": 25.569880147563786
+        },
+        "31_disturbed_stationary_magnet_D.hdf5": {
+          "total": 3.0776577471889324,
+          "heading": 1.9327957603522323,
+          "inclination": 2.395140113042806,
+          "us": 25.181573134946877
+        },
+        "32_disturbed_attached_magnet_1cm.hdf5": {
+          "total": 13.385761988251602,
+          "heading": 12.555444894129847,
+          "inclination": 4.652363547178315,
+          "us": 25.010409540183954
+        },
+        "33_disturbed_attached_magnet_2cm.hdf5": {
+          "total": 6.477611079295216,
+          "heading": 4.4744265373866305,
+          "inclination": 4.685595589385042,
+          "us": 25.205635991249267
+        },
+        "34_disturbed_attached_magnet_3cm.hdf5": {
+          "total": 3.9501544292428403,
+          "heading": 2.6352254705001523,
+          "inclination": 2.942895717456873,
+          "us": 25.730996791089424
+        },
+        "27_disturbed_phone_vibration_B.hdf5": {
+          "total": 8.83523292984095,
+          "heading": 8.708166002752337,
+          "inclination": 1.4944664381938357,
+          "us": 24.24490464716897
+        },
+        "28_disturbed_stationary_magnet_A.hdf5": {
+          "total": 10.024665546336042,
+          "heading": 9.43664025974714,
+          "inclination": 3.3862804494557324,
+          "us": 24.865391046463415
+        },
+        "29_disturbed_stationary_magnet_B.hdf5": {
+          "total": 10.72425236265521,
+          "heading": 10.193420451123554,
+          "inclination": 3.3380770464962044,
+          "us": 24.848648082324573
+        },
+        "30_disturbed_stationary_magnet_C.hdf5": {
+          "total": 5.549276093513622,
+          "heading": 2.4846529252662113,
+          "inclination": 4.9624006004884595,
+          "us": 24.618170554713483
+        },
+        "35_disturbed_attached_magnet_4cm.hdf5": {
+          "total": 3.1618259847361814,
+          "heading": 1.7510868668794433,
+          "inclination": 2.6327501824162254,
+          "us": 24.667102485971434
+        },
+        "36_disturbed_attached_magnet_5cm.hdf5": {
+          "total": 2.6404890520706634,
+          "heading": 1.174245915249123,
+          "inclination": 2.3650639353837426,
+          "us": 24.82747443761137
+        },
+        "37_disturbed_office_A.hdf5": {
+          "total": 6.7333915766995664,
+          "heading": 6.2274175459935055,
+          "inclination": 2.561796923502297,
+          "us": 25.480925863402742
+        },
+        "38_disturbed_office_B.hdf5": {
+          "total": 3.784223429857203,
+          "heading": 2.679890921199388,
+          "inclination": 2.6720403396651453,
+          "us": 25.55476710652479
+        },
+        "19_undisturbed_slow_combined_240s.hdf5": {
+          "total": 2.8505870399163324,
+          "heading": 2.1571720517523096,
+          "inclination": 1.863575272402197,
+          "us": 25.06596950150863
+        },
+        "20_undisturbed_slow_combined_360s.hdf5": {
+          "total": 2.718085619130306,
+          "heading": 1.9582562819906937,
+          "inclination": 1.8850861737209454,
+          "us": 24.934710105658095
+        },
+        "21_undisturbed_fast_combined.hdf5": {
+          "total": 6.526435280996141,
+          "heading": 4.974179507732823,
+          "inclination": 4.226476693730003,
+          "us": 24.714368051342543
+        },
+        "22_undisturbed_fast_combined_240s.hdf5": {
+          "total": 7.1856033363871745,
+          "heading": 6.510022250427816,
+          "inclination": 3.0435933410349376,
+          "us": 24.72093310604543
+        },
+        "23_undisturbed_fast_combined_360s.hdf5": {
+          "total": 7.730700843080395,
+          "heading": 7.0613418578276566,
+          "inclination": 3.148671448479273,
+          "us": 25.204376843418633
+        },
+        "24_disturbed_tapping_A.hdf5": {
+          "total": 2.6467314304509255,
+          "heading": 2.3498698390595596,
+          "inclination": 1.217977869767077,
+          "us": 25.603108442891443
+        },
+        "25_disturbed_tapping_B.hdf5": {
+          "total": 2.6713069951356467,
+          "heading": 1.1810436452518516,
+          "inclination": 2.3960834051674453,
+          "us": 25.15640775999336
+        },
+        "26_disturbed_phone_vibration_A.hdf5": {
+          "total": 4.702879432900864,
+          "heading": 4.299746689698813,
+          "inclination": 1.9054662265799533,
+          "us": 25.874193663826883
+        },
+        "39_disturbed_mixed.hdf5": {
+          "total": 2.6577905069530297,
+          "heading": 1.7349674645752886,
+          "inclination": 2.0134842756015465,
+          "us": 25.594089288784716
+        }
+      }
+    }
+  },
+  "MEKF": {
+    "zero_shot": {
+      "params": {
+        "sigma_acc_dir": 0.05,
+        "sigma_mag_dir": 0.02
+      },
+      "total": 11.639954028366994,
+      "heading": 10.260254733401581,
+      "inclination": 5.740115794921907,
+      "us": 101.49281130879362
+    },
+    "tagp": {
+      "params": {
+        "sigma_acc_dir": 0.15,
+        "sigma_mag_dir": 0.2
+      },
+      "total": 8.447039046419977,
+      "heading": 7.766398396832867,
+      "inclination": 3.1232513286910577,
+      "us": 99.82407765934595,
+      "by_group": {
+        "all_trials": {
+          "total": 8.44703904641998,
+          "heading": 7.766398396832863,
+          "inclination": 3.1232513286910586
+        },
+        "undisturbed": {
+          "total": 6.901064547525084,
+          "heading": 6.182093766476621,
+          "inclination": 2.994562736944008
+        },
+        "rotation": {
+          "total": 2.4044061843309494,
+          "heading": 2.17376764320976,
+          "inclination": 0.9275034111147638
+        },
+        "translation": {
+          "total": 10.106053632418835,
+          "heading": 8.93558619213667,
+          "inclination": 4.755745849252695
+        },
+        "combined": {
+          "total": 9.226069248465775,
+          "heading": 8.440794422168885,
+          "inclination": 3.545139921281011
+        },
+        "slow": {
+          "total": 2.477865913596303,
+          "heading": 2.3473741222353124,
+          "inclination": 0.7319704576929958
+        },
+        "fast": {
+          "total": 11.726372148174665,
+          "heading": 10.365424287467139,
+          "inclination": 5.462845223399658
+        },
+        "no_breaks": {
+          "total": 6.815416538824021,
+          "heading": 6.160777280804226,
+          "inclination": 2.817116448306078
+        },
+        "with_breaks": {
+          "total": 7.061654563839578,
+          "heading": 6.222062177112364,
+          "inclination": 3.3272745281401273
+        },
+        "disturbed": {
+          "total": 10.669377388581392,
+          "heading": 10.043836302969964,
+          "inclination": 3.3082411793274424
+        },
+        "tapping": {
+          "total": 2.6923840648141564,
+          "heading": 2.462151021323711,
+          "inclination": 0.8910877341865353
+        },
+        "vibration": {
+          "total": 2.0786779230801775,
+          "heading": 1.543220168717915,
+          "inclination": 1.365423069446902
+        },
+        "stationary_magnet": {
+          "total": 16.735437875613133,
+          "heading": 15.585052400962326,
+          "inclination": 6.108469769578336
+        },
+        "attached_magnet": {
+          "total": 12.587166163207524,
+          "heading": 12.086553923531834,
+          "inclination": 3.097267006304601
+        },
+        "office_environment": {
+          "total": 9.209737101919014,
+          "heading": 9.057775160411731,
+          "inclination": 1.6491735300647772
+        },
+        "mixed": {
+          "total": 12.870857719185404,
+          "heading": 11.802108925104234,
+          "inclination": 5.200276092006304
+        }
+      },
+      "by_trial": {
+        "01_undisturbed_slow_rotation_A.hdf5": {
+          "total": 1.4904642854552643,
+          "heading": 1.3774328179855848,
+          "inclination": 0.5693656799866048,
+          "us": 101.24764488689394
+        },
+        "02_undisturbed_slow_rotation_B.hdf5": {
+          "total": 1.5545898643530396,
+          "heading": 1.5022167131171205,
+          "inclination": 0.40012959726306396,
+          "us": 100.32450976980266
+        },
+        "03_undisturbed_slow_rotation_C.hdf5": {
+          "total": 3.7567152777874675,
+          "heading": 3.7234440252446803,
+          "inclination": 0.4989637753872877,
+          "us": 103.35178730614845
+        },
+        "04_undisturbed_slow_rotation_with_breaks_A.hdf5": {
+          "total": 1.8995221875328188,
+          "heading": 1.7461636058156578,
+          "inclination": 0.7477573696834414,
+          "us": 98.53224561037197
+        },
+        "05_undisturbed_slow_rotation_with_breaks_B.hdf5": {
+          "total": 2.230673283727181,
+          "heading": 2.1986503276853107,
+          "inclination": 0.37663672463675996,
+          "us": 101.65716408825075
+        },
+        "06_undisturbed_fast_rotation_A.hdf5": {
+          "total": 2.2603101432346095,
+          "heading": 1.9588009586286328,
+          "inclination": 1.1279446409719431,
+          "us": 100.8545619007114
+        },
+        "07_undisturbed_fast_rotation_B.hdf5": {
+          "total": 2.794213145526434,
+          "heading": 2.231683036237742,
+          "inclination": 1.681680364104685,
+          "us": 100.28834494668597
+        },
+        "08_undisturbed_fast_rotation_with_breaks_A.hdf5": {
+          "total": 3.0789286174509662,
+          "heading": 2.6223790091461834,
+          "inclination": 1.6134811984935276,
+          "us": 99.69958994365183
+        },
+        "09_undisturbed_fast_rotation_with_breaks_B.hdf5": {
+          "total": 2.5742388539107632,
+          "heading": 2.2031382950269274,
+          "inclination": 1.3315713495055594,
+          "us": 101.95985924702856
+        },
+        "10_undisturbed_slow_translation_A.hdf5": {
+          "total": 2.877351073717245,
+          "heading": 2.532808506934789,
+          "inclination": 1.3654996170026965,
+          "us": 100.18263098278925
+        },
+        "11_undisturbed_slow_translation_B.hdf5": {
+          "total": 2.7488603020233984,
+          "heading": 2.519188799185056,
+          "inclination": 1.1000604674509595,
+          "us": 100.6546131999909
+        },
+        "12_undisturbed_slow_translation_C.hdf5": {
+          "total": 1.7540884735920985,
+          "heading": 1.5887742088272556,
+          "inclination": 0.7434076323271706,
+          "us": 100.28439086800225
+        },
+        "13_undisturbed_slow_translation_with_breaks_A.hdf5": {
+          "total": 1.5326985213690092,
+          "heading": 1.3980478992011203,
+          "inclination": 0.6282077768586667,
+          "us": 101.39471793569443
+        },
+        "14_undisturbed_slow_translation_with_breaks_B.hdf5": {
+          "total": 2.172110085858627,
+          "heading": 2.0288096820607016,
+          "inclination": 0.7759236196169,
+          "us": 100.06004115159466
+        },
+        "15_undisturbed_fast_translation_A.hdf5": {
+          "total": 14.25989002554925,
+          "heading": 13.085486188696073,
+          "inclination": 5.68265584647087,
+          "us": 100.38959966415761
+        },
+        "16_undisturbed_fast_translation_B.hdf5": {
+          "total": 22.604419248792624,
+          "heading": 19.68785184636202,
+          "inclination": 11.36133949722083,
+          "us": 98.46400958576606
+        },
+        "33_disturbed_attached_magnet_2cm.hdf5": {
+          "total": 10.47782194773202,
+          "heading": 9.363214468399997,
+          "inclination": 4.713599103730922,
+          "us": 99.96747447509524
+        },
+        "34_disturbed_attached_magnet_3cm.hdf5": {
+          "total": 5.668444234719526,
+          "heading": 5.135753444059666,
+          "inclination": 2.400103701423531,
+          "us": 99.14496635919636
+        },
+        "35_disturbed_attached_magnet_4cm.hdf5": {
+          "total": 4.923812244454239,
+          "heading": 4.634418002798402,
+          "inclination": 1.6637549207741795,
+          "us": 100.25975898474732
+        },
+        "36_disturbed_attached_magnet_5cm.hdf5": {
+          "total": 8.152109285538016,
+          "heading": 7.890675955072286,
+          "inclination": 2.0494355353476092,
+          "us": 99.1643685556027
+        },
+        "25_disturbed_tapping_B.hdf5": {
+          "total": 1.8357274290425376,
+          "heading": 1.4323221620023097,
+          "inclination": 1.1482282811079845,
+          "us": 100.96908344428871
+        },
+        "26_disturbed_phone_vibration_A.hdf5": {
+          "total": 1.621158807973197,
+          "heading": 1.020505151171782,
+          "inclination": 1.2596694005278473,
+          "us": 99.01829859626264
+        },
+        "27_disturbed_phone_vibration_B.hdf5": {
+          "total": 2.5361970381871584,
+          "heading": 2.065935186264048,
+          "inclination": 1.4711767383659569,
+          "us": 98.881298224098
+        },
+        "28_disturbed_stationary_magnet_A.hdf5": {
+          "total": 8.143831520691508,
+          "heading": 7.421689096303818,
+          "inclination": 3.3559648791939707,
+          "us": 97.36526373503698
+        },
+        "29_disturbed_stationary_magnet_B.hdf5": {
+          "total": 14.24481365317154,
+          "heading": 13.170928196252152,
+          "inclination": 5.443502205061308,
+          "us": 98.93381320899472
+        },
+        "30_disturbed_stationary_magnet_C.hdf5": {
+          "total": 30.15779873164231,
+          "heading": 28.622471834570053,
+          "inclination": 9.700219310508897,
+          "us": 100.22743762266671
+        },
+        "31_disturbed_stationary_magnet_D.hdf5": {
+          "total": 14.395307596947177,
+          "heading": 13.12512047672328,
+          "inclination": 5.934192683549166,
+          "us": 99.56031832269792
+        },
+        "32_disturbed_attached_magnet_1cm.hdf5": {
+          "total": 33.713643103593824,
+          "heading": 33.40870774732883,
+          "inclination": 4.659441770246765,
+          "us": 97.27433405421029
+        },
+        "37_disturbed_office_A.hdf5": {
+          "total": 10.550961965269327,
+          "heading": 10.421433668509898,
+          "inclination": 1.64964444234293,
+          "us": 99.48834098762241
+        },
+        "38_disturbed_office_B.hdf5": {
+          "total": 7.8685122385687,
+          "heading": 7.694116652313563,
+          "inclination": 1.6487026177866246,
+          "us": 100.1785032670017
+        },
+        "39_disturbed_mixed.hdf5": {
+          "total": 12.870857719185404,
+          "heading": 11.802108925104234,
+          "inclination": 5.200276092006304,
+          "us": 97.55194686213451
+        },
+        "17_undisturbed_fast_translation_with_breaks_A.hdf5": {
+          "total": 13.804587701510691,
+          "heading": 12.257839018383041,
+          "inclination": 6.370847984827455,
+          "us": 102.64542103259569
+        },
+        "18_undisturbed_fast_translation_with_breaks_B.hdf5": {
+          "total": 29.200477259356568,
+          "heading": 25.321469579579972,
+          "inclination": 14.773770201498708,
+          "us": 98.99347940681861
+        },
+        "19_undisturbed_slow_combined_240s.hdf5": {
+          "total": 3.6818059618145007,
+          "heading": 3.618385089902167,
+          "inclination": 0.6805587309477569,
+          "us": 99.76207264488237
+        },
+        "20_undisturbed_slow_combined_360s.hdf5": {
+          "total": 4.035511645924988,
+          "heading": 3.934567790864311,
+          "inclination": 0.897134501154642,
+          "us": 97.0158023104895
+        },
+        "21_undisturbed_fast_combined.hdf5": {
+          "total": 21.83035154523436,
+          "heading": 20.523886114935618,
+          "inclination": 7.494275943323105,
+          "us": 100.69337461934762
+        },
+        "22_undisturbed_fast_combined_240s.hdf5": {
+          "total": 7.324581699166879,
+          "heading": 6.447941750207719,
+          "inclination": 3.4763262016149428,
+          "us": 101.39123437623252
+        },
+        "23_undisturbed_fast_combined_360s.hdf5": {
+          "total": 9.258095390188148,
+          "heading": 7.67919136493461,
+          "inclination": 5.177404229364608,
+          "us": 98.38261577550992
+        },
+        "24_disturbed_tapping_A.hdf5": {
+          "total": 3.549040700585775,
+          "heading": 3.4919798806451126,
+          "inclination": 0.6339471872650863,
+          "us": 96.92411076141892
+        }
+      }
+    }
+  },
+  "ARBITER": {
+    "zero_shot": {
+      "params": {
+        "rho0": 0.001308996938995747,
+        "diff_tol": 0.5,
+        "cap_yaw": 0.08726646259971647,
+        "cap_tilt": 0.17453292519943295
+      },
+      "total": 7.072098573577769,
+      "heading": 5.891842557487383,
+      "inclination": 3.308542544370308,
+      "us": 26.509187805400213
+    },
+    "tagp": {
+      "params": {
+        "rho0": 0.001308996938995747,
+        "diff_tol": 0.5,
+        "cap_yaw": 0.08726646259971647,
+        "cap_tilt": 0.17453292519943295
+      },
+      "total": 7.072098573577769,
+      "heading": 5.891842557487383,
+      "inclination": 3.308542544370308,
+      "us": 26.509187805400213,
+      "by_group": {
+        "all_trials": {
+          "total": 7.072098573577769,
+          "heading": 5.891842557487383,
+          "inclination": 3.308542544370308
+        },
+        "undisturbed": {
+          "total": 7.542942730391272,
+          "heading": 6.6498602391930834,
+          "inclination": 2.92478550280675
+        },
+        "rotation": {
+          "total": 4.6745970790839095,
+          "heading": 3.859373691293994,
+          "inclination": 2.4877739936471444
+        },
+        "translation": {
+          "total": 5.455682649081449,
+          "heading": 4.805059797890707,
+          "inclination": 2.3704325820948666
+        },
+        "combined": {
+          "total": 16.463033049102204,
+          "heading": 14.993376819755719,
+          "inclination": 4.709241476575429
+        },
+        "slow": {
+          "total": 4.518040660689946,
+          "heading": 4.078603933773067,
+          "inclination": 1.8583002721239898
+        },
+        "fast": {
+          "total": 10.842835897338174,
+          "heading": 9.454867117833102,
+          "inclination": 4.088223936278852
+        },
+        "no_breaks": {
+          "total": 9.157339510559662,
+          "heading": 8.131252362927237,
+          "inclination": 3.2957760566782666
+        },
+        "with_breaks": {
+          "total": 4.515948767575542,
+          "heading": 3.872250007191546,
+          "inclination": 2.2291782142976544
+        },
+        "disturbed": {
+          "total": 6.395260098158358,
+          "heading": 4.802192140035436,
+          "inclination": 3.860193291617922
+        },
+        "tapping": {
+          "total": 5.719612808926573,
+          "heading": 4.719067193886652,
+          "inclination": 3.2270522155051466
+        },
+        "vibration": {
+          "total": 3.186271759466209,
+          "heading": 2.6159382502844704,
+          "inclination": 1.535972633840799
+        },
+        "stationary_magnet": {
+          "total": 9.071581633212949,
+          "heading": 7.781680342034953,
+          "inclination": 4.305999523029635
+        },
+        "attached_magnet": {
+          "total": 6.078157665958726,
+          "heading": 3.68910179003678,
+          "inclination": 4.664400158713623
+        },
+        "office_environment": {
+          "total": 6.930745694263351,
+          "heading": 4.646491971172685,
+          "inclination": 4.738363140416881
+        },
+        "mixed": {
+          "total": 3.973786182576042,
+          "heading": 3.2998490915556595,
+          "inclination": 2.2143178006744497
+        }
+      },
+      "by_trial": {
+        "01_undisturbed_slow_rotation_A.hdf5": {
+          "total": 2.189349556394913,
+          "heading": 1.956305261489664,
+          "inclination": 0.9829740168252553,
+          "us": 29.33190551609021
+        },
+        "02_undisturbed_slow_rotation_B.hdf5": {
+          "total": 1.8923138975494007,
+          "heading": 1.792354516591595,
+          "inclination": 0.6069179255930123,
+          "us": 31.186019911505646
+        },
+        "03_undisturbed_slow_rotation_C.hdf5": {
+          "total": 4.6516973626561695,
+          "heading": 4.5007200963461695,
+          "inclination": 1.175807616186566,
+          "us": 30.513822505173916
+        },
+        "04_undisturbed_slow_rotation_with_breaks_A.hdf5": {
+          "total": 2.9983729523789355,
+          "heading": 2.683482417604518,
+          "inclination": 1.3379069999534439,
+          "us": 30.16053794704413
+        },
+        "09_undisturbed_fast_rotation_with_breaks_B.hdf5": {
+          "total": 6.182058335370645,
+          "heading": 4.624691045758411,
+          "inclination": 4.105588414956493,
+          "us": 25.036621922939375
+        },
+        "10_undisturbed_slow_translation_A.hdf5": {
+          "total": 16.477893393506147,
+          "heading": 15.403832398417423,
+          "inclination": 5.876578531339519,
+          "us": 24.826302588920257
+        },
+        "11_undisturbed_slow_translation_B.hdf5": {
+          "total": 5.398527712654999,
+          "heading": 4.463802525679656,
+          "inclination": 3.0372262427925825,
+          "us": 26.235481609458454
+        },
+        "12_undisturbed_slow_translation_C.hdf5": {
+          "total": 4.46475637205723,
+          "heading": 3.5021998591741026,
+          "inclination": 2.7708397829336304,
+          "us": 28.059483973579198
+        },
+        "05_undisturbed_slow_rotation_with_breaks_B.hdf5": {
+          "total": 2.327754546251115,
+          "heading": 2.2074997089368114,
+          "inclination": 0.738564730527104,
+          "us": 30.673301021652723
+        },
+        "06_undisturbed_fast_rotation_A.hdf5": {
+          "total": 4.980211805529827,
+          "heading": 3.9404501235457676,
+          "inclination": 3.0462940383601,
+          "us": 25.05004257059538
+        },
+        "07_undisturbed_fast_rotation_B.hdf5": {
+          "total": 4.811501057071746,
+          "heading": 2.936048343597454,
+          "inclination": 3.812476175768809,
+          "us": 24.273951786600293
+        },
+        "08_undisturbed_fast_rotation_with_breaks_A.hdf5": {
+          "total": 12.038114198552439,
+          "heading": 10.092811707775564,
+          "inclination": 6.5834360246535155,
+          "us": 26.321501859290706
+        },
+        "13_undisturbed_slow_translation_with_breaks_A.hdf5": {
+          "total": 1.7569772619693433,
+          "heading": 1.5418219390322614,
+          "inclination": 0.8424958942486981,
+          "us": 30.5179984499845
+        },
+        "14_undisturbed_slow_translation_with_breaks_B.hdf5": {
+          "total": 3.457776000426475,
+          "heading": 2.7940620171758894,
+          "inclination": 2.0372962250070614,
+          "us": 29.203142484613775
+        },
+        "15_undisturbed_fast_translation_A.hdf5": {
+          "total": 5.297557380701095,
+          "heading": 5.205227614514747,
+          "inclination": 0.9851407127970582,
+          "us": 25.07620823401392
+        },
+        "16_undisturbed_fast_translation_B.hdf5": {
+          "total": 4.881118874762378,
+          "heading": 3.300960605773374,
+          "inclination": 3.5961784247003297,
+          "us": 25.417661824576772
+        },
+        "25_disturbed_tapping_B.hdf5": {
+          "total": 7.100211185432369,
+          "heading": 5.977923727153229,
+          "inclination": 3.835623563492744,
+          "us": 25.66872765464576
+        },
+        "26_disturbed_phone_vibration_A.hdf5": {
+          "total": 1.8307420140273543,
+          "heading": 0.9464323416354545,
+          "inclination": 1.5671378116273011,
+          "us": 24.826100350333256
+        },
+        "27_disturbed_phone_vibration_B.hdf5": {
+          "total": 4.541801504905064,
+          "heading": 4.285444158933486,
+          "inclination": 1.5048074560542968,
+          "us": 25.590349756410916
+        },
+        "28_disturbed_stationary_magnet_A.hdf5": {
+          "total": 9.83836810566825,
+          "heading": 6.856515916420041,
+          "inclination": 7.064106102894646,
+          "us": 25.577686784630835
+        },
+        "29_disturbed_stationary_magnet_B.hdf5": {
+          "total": 14.222843162424946,
+          "heading": 13.543305921756948,
+          "inclination": 4.358256445950286,
+          "us": 24.79801121319211
+        },
+        "30_disturbed_stationary_magnet_C.hdf5": {
+          "total": 6.872636284356469,
+          "heading": 6.239718097702169,
+          "inclination": 2.8828417656650163,
+          "us": 25.274434167787632
+        },
+        "31_disturbed_stationary_magnet_D.hdf5": {
+          "total": 5.352478980402131,
+          "heading": 4.487181432260651,
+          "inclination": 2.9187937776085895,
+          "us": 26.6098125434215
+        },
+        "32_disturbed_attached_magnet_1cm.hdf5": {
+          "total": 6.265240736288872,
+          "heading": 3.988923284499985,
+          "inclination": 4.832764952107757,
+          "us": 26.551795794248655
+        },
+        "21_undisturbed_fast_combined.hdf5": {
+          "total": 19.846863801058575,
+          "heading": 13.31522899251402,
+          "inclination": 14.760676378122223,
+          "us": 24.573308214757045
+        },
+        "22_undisturbed_fast_combined_240s.hdf5": {
+          "total": 21.036605232310908,
+          "heading": 20.919186193943677,
+          "inclination": 2.2239721581609766,
+          "us": 21.5639874537086
+        },
+        "23_undisturbed_fast_combined_360s.hdf5": {
+          "total": 32.83062733970693,
+          "heading": 32.63530244749219,
+          "inclination": 3.668563546512946,
+          "us": 22.75435976071494
+        },
+        "24_disturbed_tapping_A.hdf5": {
+          "total": 4.339014432420778,
+          "heading": 3.4602106606200755,
+          "inclination": 2.618480867517549,
+          "us": 27.923993002489784
+        },
+        "17_undisturbed_fast_translation_with_breaks_A.hdf5": {
+          "total": 3.77960848271231,
+          "heading": 3.5963015992127905,
+          "inclination": 1.162866273857736,
+          "us": 25.880422852696935
+        },
+        "18_undisturbed_fast_translation_with_breaks_B.hdf5": {
+          "total": 3.5869283629430715,
+          "heading": 3.437329622036125,
+          "inclination": 1.0252711511771841,
+          "us": 26.799792937646046
+        },
+        "19_undisturbed_slow_combined_240s.hdf5": {
+          "total": 3.8835627496726732,
+          "heading": 3.693046651949919,
+          "inclination": 1.2016877563746529,
+          "us": 28.756944963219993
+        },
+        "20_undisturbed_slow_combined_360s.hdf5": {
+          "total": 4.717506122761952,
+          "heading": 4.404119812878795,
+          "inclination": 1.6913075437063463,
+          "us": 28.39287779870428
+        },
+        "33_disturbed_attached_magnet_2cm.hdf5": {
+          "total": 6.3808128002055575,
+          "heading": 5.238227124194906,
+          "inclination": 3.645291745617467,
+          "us": 26.590755815547737
+        },
+        "34_disturbed_attached_magnet_3cm.hdf5": {
+          "total": 7.005791085760433,
+          "heading": 2.603279317465213,
+          "inclination": 6.504572714806977,
+          "us": 26.54419625123031
+        },
+        "35_disturbed_attached_magnet_4cm.hdf5": {
+          "total": 6.413975388172406,
+          "heading": 3.412228794884842,
+          "inclination": 5.432695371677832,
+          "us": 25.956691903728302
+        },
+        "36_disturbed_attached_magnet_5cm.hdf5": {
+          "total": 4.324968319366362,
+          "heading": 3.20285042913895,
+          "inclination": 2.906676009358081,
+          "us": 25.830876586825518
+        },
+        "37_disturbed_office_A.hdf5": {
+          "total": 7.4944392455230044,
+          "heading": 6.482722162728017,
+          "inclination": 3.7629067330442636,
+          "us": 26.106227683442366
+        },
+        "38_disturbed_office_B.hdf5": {
+          "total": 6.367052143003698,
+          "heading": 2.810261779617353,
+          "inclination": 5.713819547789498,
+          "us": 23.820621457702877
+        },
+        "39_disturbed_mixed.hdf5": {
+          "total": 3.973786182576042,
+          "heading": 3.2998490915556595,
+          "inclination": 2.2143178006744497,
+          "us": 25.582365257483634
+        }
+      }
+    }
+  },
+  "VQF": {
+    "zero_shot": {
+      "params": {},
+      "total": 2.8716003601434243,
+      "heading": 2.7629775593618344,
+      "inclination": 0.6958180894223562,
+      "us": 7.664723190356112
+    },
+    "tagp": {
+      "params": {
+        "tauAcc": 3.0,
+        "tauMag": 27.0
+      },
+      "total": 2.866119882106843,
+      "heading": 2.7631108589823614,
+      "inclination": 0.6958180894223575,
+      "us": 7.948108881908147,
+      "by_group": {
+        "all_trials": {
+          "total": 2.8661198821068425,
+          "heading": 2.763110858982362,
+          "inclination": 0.6958180894223575
+        },
+        "undisturbed": {
+          "total": 2.782266569421162,
+          "heading": 2.687762278324066,
+          "inclination": 0.6668144150030224
+        },
+        "rotation": {
+          "total": 3.3776106629990412,
+          "heading": 3.2683025599900724,
+          "inclination": 0.7836198512156348
+        },
+        "translation": {
+          "total": 2.1256307829035768,
+          "heading": 2.0784069973673565,
+          "inclination": 0.4404837810054547
+        },
+        "combined": {
+          "total": 2.892591616712634,
+          "heading": 2.7396292770473307,
+          "inclination": 0.8639597710159425
+        },
+        "slow": {
+          "total": 2.4867098475606624,
+          "heading": 2.4470579758754414,
+          "inclination": 0.4301395285473233
+        },
+        "fast": {
+          "total": 3.104692084178072,
+          "heading": 2.950348790086202,
+          "inclination": 0.9250052002274216
+        },
+        "no_breaks": {
+          "total": 2.4871055146156444,
+          "heading": 2.3851330980369148,
+          "inclination": 0.6385321429830975
+        },
+        "with_breaks": {
+          "total": 3.335693547181508,
+          "heading": 3.2551919913624747,
+          "inclination": 0.7198436750403817
+        },
+        "disturbed": {
+          "total": 2.986659019092507,
+          "heading": 2.871424443678661,
+          "inclination": 0.7375108714001511
+        },
+        "tapping": {
+          "total": 2.3814725052215193,
+          "heading": 2.324930410288041,
+          "inclination": 0.4948841095657794
+        },
+        "vibration": {
+          "total": 3.6551644749473713,
+          "heading": 3.618313261709992,
+          "inclination": 0.4656465525014106
+        },
+        "stationary_magnet": {
+          "total": 4.6560011219928334,
+          "heading": 4.493395192099431,
+          "inclination": 1.1650151557863935
+        },
+        "attached_magnet": {
+          "total": 2.163183691967356,
+          "heading": 2.036356217505148,
+          "inclination": 0.6679487518057785
+        },
+        "office_environment": {
+          "total": 1.7997479625710993,
+          "heading": 1.6621976239810061,
+          "inclination": 0.5822383205549628
+        },
+        "mixed": {
+          "total": 2.6738514721920223,
+          "heading": 2.5765466509770323,
+          "inclination": 0.7148315949836466
+        }
+      },
+      "by_trial": {
+        "03_undisturbed_slow_rotation_C.hdf5": {
+          "total": 4.387049512900811,
+          "heading": 4.366875687223472,
+          "inclination": 0.4203443526625674,
+          "us": 7.741975960030459
+        },
+        "04_undisturbed_slow_rotation_with_breaks_A.hdf5": {
+          "total": 3.6920996410284603,
+          "heading": 3.607194599528758,
+          "inclination": 0.7873998248999933,
+          "us": 7.783357156123701
+        },
+        "05_undisturbed_slow_rotation_with_breaks_B.hdf5": {
+          "total": 2.1466819907374317,
+          "heading": 2.117444871409316,
+          "inclination": 0.3531090553690811,
+          "us": 7.912566709223138
+        },
+        "06_undisturbed_fast_rotation_A.hdf5": {
+          "total": 1.565632390052122,
+          "heading": 1.3433576072718632,
+          "inclination": 0.804132556005458,
+          "us": 7.563409009474618
+        },
+        "07_undisturbed_fast_rotation_B.hdf5": {
+          "total": 2.803824161099672,
+          "heading": 2.6106331749387173,
+          "inclination": 1.0228860104095845,
+          "us": 8.446485013549403
+        },
+        "08_undisturbed_fast_rotation_with_breaks_A.hdf5": {
+          "total": 7.98019675638875,
+          "heading": 7.783389647133706,
+          "inclination": 1.7628999511986032,
+          "us": 7.848872792990135
+        },
+        "09_undisturbed_fast_rotation_with_breaks_B.hdf5": {
+          "total": 3.242388674419254,
+          "heading": 3.1223327839187425,
+          "inclination": 0.8742540216685116,
+          "us": 7.611543260019103
+        },
+        "10_undisturbed_slow_translation_A.hdf5": {
+          "total": 1.7411298659745782,
+          "heading": 1.7152577630548274,
+          "inclination": 0.29904873834907536,
+          "us": 7.779340903028998
+        },
+        "01_undisturbed_slow_rotation_A.hdf5": {
+          "total": 2.7966511934258333,
+          "heading": 2.7318238054697264,
+          "inclination": 0.5987358023219667,
+          "us": 7.924752371744876
+        },
+        "02_undisturbed_slow_rotation_B.hdf5": {
+          "total": 1.7839716469390385,
+          "heading": 1.731670863016348,
+          "inclination": 0.4288170864049475,
+          "us": 8.243777236224599
+        },
+        "15_undisturbed_fast_translation_A.hdf5": {
+          "total": 2.0437118636167533,
+          "heading": 1.988826464130267,
+          "inclination": 0.47047108322920633,
+          "us": 7.989044069497586
+        },
+        "16_undisturbed_fast_translation_B.hdf5": {
+          "total": 2.313747584193649,
+          "heading": 2.24997983584086,
+          "inclination": 0.5394972927417787,
+          "us": 7.991378860445434
+        },
+        "17_undisturbed_fast_translation_with_breaks_A.hdf5": {
+          "total": 2.112652740230102,
+          "heading": 2.0394602893306533,
+          "inclination": 0.5513048229797194,
+          "us": 7.752810194616676
+        },
+        "18_undisturbed_fast_translation_with_breaks_B.hdf5": {
+          "total": 2.766588796035082,
+          "heading": 2.697700964336677,
+          "inclination": 0.6135887211335287,
+          "us": 8.24518861496909
+        },
+        "11_undisturbed_slow_translation_B.hdf5": {
+          "total": 2.052967800020209,
+          "heading": 2.0095825298466794,
+          "inclination": 0.4198490625918256,
+          "us": 8.285061054489127
+        },
+        "12_undisturbed_slow_translation_C.hdf5": {
+          "total": 1.3549386174488294,
+          "heading": 1.3308423545243042,
+          "inclination": 0.2544013049503423,
+          "us": 8.239511054988498
+        },
+        "13_undisturbed_slow_translation_with_breaks_A.hdf5": {
+          "total": 2.4729160091205453,
+          "heading": 2.439782858454116,
+          "inclination": 0.40348156398103285,
+          "us": 7.894047468331879
+        },
+        "14_undisturbed_slow_translation_with_breaks_B.hdf5": {
+          "total": 2.2720237694924443,
+          "heading": 2.2342299167878257,
+          "inclination": 0.4127114390925832,
+          "us": 7.8554221889431295
+        },
+        "31_disturbed_stationary_magnet_D.hdf5": {
+          "total": 2.94897107403601,
+          "heading": 2.71918123334922,
+          "inclination": 1.1413307930663887,
+          "us": 8.099269429821396
+        },
+        "32_disturbed_attached_magnet_1cm.hdf5": {
+          "total": 3.6906636235379047,
+          "heading": 3.6480085778533504,
+          "inclination": 0.559580024112026,
+          "us": 7.736459624857951
+        },
+        "33_disturbed_attached_magnet_2cm.hdf5": {
+          "total": 1.7391097527541106,
+          "heading": 1.6327302160769916,
+          "inclination": 0.5989266616373748,
+          "us": 7.827158808177627
+        },
+        "34_disturbed_attached_magnet_3cm.hdf5": {
+          "total": 2.0624134657764457,
+          "heading": 1.958677768676775,
+          "inclination": 0.6458795978292771,
+          "us": 8.09587413596849
+        },
+        "27_disturbed_phone_vibration_B.hdf5": {
+          "total": 4.604511692038278,
+          "heading": 4.589614438759918,
+          "inclination": 0.37019666243217897,
+          "us": 8.14087021343973
+        },
+        "28_disturbed_stationary_magnet_A.hdf5": {
+          "total": 5.865970573598004,
+          "heading": 5.740824980468901,
+          "inclination": 1.20568448293837,
+          "us": 8.069493422355366
+        },
+        "29_disturbed_stationary_magnet_B.hdf5": {
+          "total": 5.726114280216249,
+          "heading": 5.626717441691667,
+          "inclination": 1.0626949290842853,
+          "us": 7.848731981154669
+        },
+        "30_disturbed_stationary_magnet_C.hdf5": {
+          "total": 4.08294856012107,
+          "heading": 3.886857112887938,
+          "inclination": 1.2503504180565301,
+          "us": 7.866623385250539
+        },
+        "23_undisturbed_fast_combined_360s.hdf5": {
+          "total": 2.5557641581940787,
+          "heading": 2.4221484025623896,
+          "inclination": 0.8156080003002523,
+          "us": 7.660735538865312
+        },
+        "24_disturbed_tapping_A.hdf5": {
+          "total": 3.52043185303776,
+          "heading": 3.467667175842138,
+          "inclination": 0.607328686879965,
+          "us": 8.12584248404033
+        },
+        "25_disturbed_tapping_B.hdf5": {
+          "total": 1.2425131574052786,
+          "heading": 1.1821936447339445,
+          "inclination": 0.3824395322515938,
+          "us": 8.090653871155908
+        },
+        "26_disturbed_phone_vibration_A.hdf5": {
+          "total": 2.7058172578564643,
+          "heading": 2.6470120846600653,
+          "inclination": 0.5610964425706423,
+          "us": 8.13467037914213
+        },
+        "35_disturbed_attached_magnet_4cm.hdf5": {
+          "total": 1.5980312189194912,
+          "heading": 1.456153659158156,
+          "inclination": 0.6582883666210491,
+          "us": 7.997011840128944
+        },
+        "36_disturbed_attached_magnet_5cm.hdf5": {
+          "total": 1.7257003988488273,
+          "heading": 1.486210865760468,
+          "inclination": 0.8770691088291657,
+          "us": 7.970531863971282
+        },
+        "37_disturbed_office_A.hdf5": {
+          "total": 0.9804996180638955,
+          "heading": 0.763691010948898,
+          "inclination": 0.6149489989337614,
+          "us": 7.610081903713946
+        },
+        "38_disturbed_office_B.hdf5": {
+          "total": 2.618996307078303,
+          "heading": 2.5607042370131143,
+          "inclination": 0.5495276421761642,
+          "us": 8.051483278001548
+        },
+        "19_undisturbed_slow_combined_240s.hdf5": {
+          "total": 2.563125679755553,
+          "heading": 2.533028069703679,
+          "inclination": 0.39167393229836805,
+          "us": 7.953765710498103
+        },
+        "20_undisturbed_slow_combined_360s.hdf5": {
+          "total": 2.576962443884208,
+          "heading": 2.546962391486247,
+          "inclination": 0.39210217964609667,
+          "us": 7.92343216226276
+        },
+        "21_undisturbed_fast_combined.hdf5": {
+          "total": 4.198002393318289,
+          "heading": 3.831247288051554,
+          "inclination": 1.716277484608398,
+          "us": 7.937208085657133
+        },
+        "22_undisturbed_fast_combined_240s.hdf5": {
+          "total": 2.5691034084110416,
+          "heading": 2.3647602334327846,
+          "inclination": 1.0041372582265973,
+          "us": 7.979972298459555
+        },
+        "39_disturbed_mixed.hdf5": {
+          "total": 2.6738514721920223,
+          "heading": 2.5765466509770323,
+          "inclination": 0.7148315949836466,
+          "us": 7.7478320588045895
+        }
+      }
+    }
+  }
+}

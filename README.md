@@ -27,7 +27,7 @@ benchmark results (synthetic scenario and the 39-trial BROAD data set),
 and the ablation study are in the accompanying paper draft in the parent
 project.
 
-Numbers that matter for firmware: 25 scalar states (about 120 B), no
+Numbers that matter for firmware: 31 floating-point states plus eight binary flags (about 130 B), no
 dynamic memory, no matrix operations, roughly 270 floating-point
 operations plus 4 `sqrtf`, 3 `expf`, and 2 `atan2f` per step, float32
 throughout.
@@ -161,7 +161,7 @@ environments with strong magnetic or inertial faults.
 
 ## Resource footprint
 
-State: ~120 B RAM per filter instance plus ~100 B for the parameter
+State: ~130 B RAM per filter instance plus ~100 B for the parameter
 block. Code size: a few kB depending on the toolchain. Measured per-step
 times are printed by the self-tests; the analytic estimates are 3–5 µs on
 a Cortex-M7 at 216 MHz, 8–12 µs on a Cortex-M4F at 168 MHz, 15–25 µs on
@@ -186,3 +186,21 @@ rest; applications that never rest accumulate the drift the budget is
 sized for. Sustained coherent acceleration that keeps the specific-force
 norm near g passes the diagnostics and steers tilt at the budgeted rate,
 which is the designed worst case.
+
+
+## Reproducibility package
+
+The python/ directory contains the reference implementation and every script
+behind the published results: the synthetic-scenario generator with fixed
+seeds (simulation.py), the baseline filters (filters_baseline.py), the
+reference ARBITER implementation (new_filter.py), the synthetic benchmark
+with its tuning grids (benchmark.py), the BROAD benchmark under the official
+TAGP protocol including VQF (broad_benchmark.py, vqf_wrapper.py), the
+ablation study (ablation.py), figure generation (make_paper_figs.py), and
+the result tables (python/results/).
+
+To reproduce: install numpy, scipy, matplotlib, h5py, and vqf; clone the
+BROAD data set (github.com/dlaidig/broad) into python/data/broad; then run
+tests_sanity.py, benchmark.py, and broad_benchmark.py from the python/
+directory. All algorithms are deterministic, so repeated runs reproduce the
+tables exactly.
