@@ -1,0 +1,11 @@
+version: "1.0.0"
+description: >
+  ARBITER orientation filter (AHRS) for 9-axis MARG sensors. Corrections are
+  gated by per-sensor evidence accumulators and rate-limited by token buckets
+  tied to the expected gyroscope drift. Float32, no dynamic memory.
+url: https://github.com/example/arbiter-ahrs
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+  - esp32c3

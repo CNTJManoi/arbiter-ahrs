@@ -1,0 +1,24 @@
+#######################################
+# Syntax coloring map for ArbiterAHRS
+#######################################
+
+ArbiterAHRS	KEYWORD1
+ArbiterParams	KEYWORD1
+ArbiterState	KEYWORD1
+
+begin	KEYWORD2
+reset	KEYWORD2
+update	KEYWORD2
+updateIMU	KEYWORD2
+getQuaternion	KEYWORD2
+getEuler	KEYWORD2
+getEulerDeg	KEYWORD2
+accelTrusted	KEYWORD2
+magTrusted	KEYWORD2
+isStatic	KEYWORD2
+dynAccelFlag	KEYWORD2
+magDisturbFlag	KEYWORD2
+accelEvidence	KEYWORD2
+magEvidence	KEYWORD2
+getGyroBias	KEYWORD2
+parameters	KEYWORD2
