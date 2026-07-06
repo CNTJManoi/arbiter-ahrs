@@ -200,7 +200,10 @@ idf.py build flash monitor
 синтетический бенчмарк с сетками настройки (benchmark.py), бенчмарк BROAD
 по официальному протоколу TAGP, включая VQF (broad_benchmark.py,
 vqf_wrapper.py), абляционное исследование (ablation.py), генерацию рисунков
-(make_paper_figs.py) и таблицы результатов (python/results/).
+(make_paper_figs.py) и таблицы результатов (python/results/). Поэлементные
+ошибки BROAD по испытаниям, стоящие за приведённой статистикой Уилкоксона,
+лежат в python/results/broad_per_trial.csv (39 испытаний на 6 фильтров;
+TAGP RMSE полного угла, курса и наклона плюс zero-shot полный угол).
 
 Для воспроизведения: установите numpy, scipy, matplotlib, h5py и vqf;
 склонируйте набор данных BROAD (github.com/dlaidig/broad) в

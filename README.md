@@ -197,7 +197,10 @@ reference ARBITER implementation (new_filter.py), the synthetic benchmark
 with its tuning grids (benchmark.py), the BROAD benchmark under the official
 TAGP protocol including VQF (broad_benchmark.py, vqf_wrapper.py), the
 ablation study (ablation.py), figure generation (make_paper_figs.py), and
-the result tables (python/results/).
+the result tables (python/results/). The per-trial BROAD errors behind the
+reported Wilcoxon statistics are in python/results/broad_per_trial.csv
+(39 trials by 6 filters; TAGP total, heading, and inclination RMSE plus the
+zero-shot total).
 
 To reproduce: install numpy, scipy, matplotlib, h5py, and vqf; clone the
 BROAD data set (github.com/dlaidig/broad) into python/data/broad; then run
