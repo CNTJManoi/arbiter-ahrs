@@ -197,10 +197,14 @@ reference ARBITER implementation (new_filter.py), the synthetic benchmark
 with its tuning grids (benchmark.py), the BROAD benchmark under the official
 TAGP protocol including VQF (broad_benchmark.py, vqf_wrapper.py), the
 ablation study (ablation.py), figure generation (make_paper_figs.py), and
-the result tables (python/results/). The per-trial BROAD errors behind the
-reported Wilcoxon statistics are in python/results/broad_per_trial.csv
-(39 trials by 6 filters; TAGP total, heading, and inclination RMSE plus the
-zero-shot total).
+the result tables (python/results/). The uniform-sampling companion of the
+synthetic scenario, which brings VQF into the stress test, is run by
+benchmark_uniform.py (results in python/results/uniform_companion.json).
+The per-trial BROAD errors behind the reported statistics are in
+python/results/broad_per_trial.csv (39 trials by 6 filters; TAGP total,
+heading, and inclination RMSE plus the zero-shot total); stats_broad.py
+recomputes the Wilcoxon tests with Holm correction, the rank-biserial
+effect sizes, and the Hodges-Lehmann estimates with confidence intervals.
 
 To reproduce: install numpy, scipy, matplotlib, h5py, and vqf; clone the
 BROAD data set (github.com/dlaidig/broad) into python/data/broad; then run

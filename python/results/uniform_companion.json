@@ -1,0 +1,70 @@
+{
+  "Complementary": {
+    "rmse_ang": 22.891386199812263,
+    "seg_dyn_acc_ang": 8.381728284397958,
+    "seg_vibration_ang": 1.3501038868758233,
+    "seg_mag_dist_ang": 66.52004380745036,
+    "seg_mag_out_ang": 10.465429150714568,
+    "seg_combined_ang": 3.7041881145567603
+  },
+  "Mahony": {
+    "rmse_ang": 24.346971876371686,
+    "seg_dyn_acc_ang": 9.189873204070377,
+    "seg_vibration_ang": 1.0597050399493657,
+    "seg_mag_dist_ang": 67.22017340767526,
+    "seg_mag_out_ang": 27.543545280811394,
+    "seg_combined_ang": 4.8010751440577435
+  },
+  "Madgwick": {
+    "rmse_ang": 23.781433583409548,
+    "seg_dyn_acc_ang": 8.369852949445608,
+    "seg_vibration_ang": 1.41281793461633,
+    "seg_mag_dist_ang": 67.61661837901994,
+    "seg_mag_out_ang": 19.55254720460777,
+    "seg_combined_ang": 4.847251736273456
+  },
+  "MEKF": {
+    "rmse_ang": 24.10783665322065,
+    "seg_dyn_acc_ang": 5.074783811479966,
+    "seg_vibration_ang": 1.0692114885681017,
+    "seg_mag_dist_ang": 68.75628956788925,
+    "seg_mag_out_ang": 20.657499971742716,
+    "seg_combined_ang": 3.376105541726171
+  },
+  "ARBITER": {
+    "rmse_ang": 17.871817028871003,
+    "seg_dyn_acc_ang": 0.47856993816771587,
+    "seg_vibration_ang": 0.9826510402834618,
+    "seg_mag_dist_ang": 28.32514253638653,
+    "seg_mag_out_ang": 43.673706717334,
+    "seg_combined_ang": 19.33294786468183
+  },
+  "VQF": {
+    "rmse_ang": 24.166753180323227,
+    "seg_dyn_acc_ang": 2.7423519398287812,
+    "seg_vibration_ang": 0.8350597649442232,
+    "seg_mag_dist_ang": 44.77706839961403,
+    "seg_mag_out_ang": 56.63265319005442,
+    "seg_combined_ang": 21.30379529468714
+  },
+  "VQF_broad_taus": {
+    "rmse_ang": 15.748797975114826,
+    "seg_dyn_acc_ang": 2.7284019754632496,
+    "seg_vibration_ang": 0.8375942821652514,
+    "seg_mag_dist_ang": 23.2700855002738,
+    "seg_mag_out_ang": 35.52564792961473,
+    "seg_combined_ang": 20.920777559793567
+  },
+  "VQF_protocol_tuned": {
+    "params": {
+      "tauAcc": 9.0,
+      "tauMag": 3.0
+    },
+    "rmse_ang": 26.552725754957905,
+    "seg_dyn_acc_ang": 1.299078690156759,
+    "seg_vibration_ang": 1.1422992447775357,
+    "seg_mag_dist_ang": 61.40711445798814,
+    "seg_mag_out_ang": 52.57117408855305,
+    "seg_combined_ang": 12.454665106244452
+  }
+}

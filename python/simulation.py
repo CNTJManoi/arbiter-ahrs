@@ -154,8 +154,13 @@ def _mag_disturbance_earth(t, v):
     return dist, amp
 
 
-def generate_scenario(seed=42, variant='test', fs_nominal=250.0):
-    """Возвращает словарь с данными сенсоров и ground truth."""
+def generate_scenario(seed=42, variant='test', fs_nominal=250.0, uniform=False):
+    """Возвращает словарь с данными сенсоров и ground truth.
+
+    uniform=True — companion-вариант с постоянным шагом дискретизации и без
+    пропусков данных: траектория, помехи и модели сенсоров те же, что и в
+    основном сценарии; нужен для честного включения VQF, официальная
+    реализация которого предполагает фиксированный Ts."""
     rng = np.random.default_rng(seed)
     if variant == 'test':
         v = dict(freq_scale=1.0, amp_scale=1.0,
@@ -179,14 +184,17 @@ def generate_scenario(seed=42, variant='test', fs_nominal=250.0):
     Af_dyn_e = _dyn_accel_earth(tf, rng, v)
     Mdist_e, Mamp = _mag_disturbance_earth(tf, v)
 
-    # ---- неравномерная сетка сенсоров + пропуски данных
+    # ---- сетка сенсоров: неравномерная с пропусками либо равномерная
     dts = []
     tcur = 0.0
-    gaps = [(62.0, 62.25), (95.0, 95.20), (140.0, 140.30)]
+    gaps = [] if uniform else [(62.0, 62.25), (95.0, 95.20), (140.0, 140.30)]
     base_dt = 1.0 / fs_nominal
     while tcur < T_END - base_dt:
-        dt = base_dt * (1.0 + 0.10 * np.sin(2*np.pi*0.03*tcur)
-                        + rng.uniform(-0.08, 0.08))
+        if uniform:
+            dt = base_dt
+        else:
+            dt = base_dt * (1.0 + 0.10 * np.sin(2*np.pi*0.03*tcur)
+                            + rng.uniform(-0.08, 0.08))
         tnew = tcur + dt
         for g0, g1 in gaps:
             if tcur < g0 <= tnew:
